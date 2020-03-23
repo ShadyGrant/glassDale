@@ -1,0 +1,14 @@
+.invisible {
+    display:none;
+}
+.notesContainer {
+    flex: 1;
+}
+.note {
+    border: 5px double blue;
+    margin: 0.5rem 0;
+    padding: 0.3rem 1.5rem;
+}
+.noteFormContainer {
+    margin: 1rem 30%;
+}

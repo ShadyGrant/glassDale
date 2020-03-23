@@ -1,0 +1,35 @@
+@import "./criminals.css";
+@import "./filter.css";
+@import "./notes.css";
+@import url("https://fonts.googleapis.com/css?family=Comfortaa|Patua+One");
+
+body,
+input,
+select,
+textarea {
+	color: white;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.criminal p, li {
+    font-size: small;
+}
+.title{
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px red;
+}
+.boxes{
+    margin: 0rem;
+}
+.listsContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.notes__button{
+    color: black;
+}
